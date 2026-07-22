@@ -444,8 +444,8 @@
 
     <section id="analytics">
       <h2>7. Analytics and Google Signals</h2>
-      <p>We use Google Analytics for Firebase to understand App usage and improve Football Player.</p>
-      <p>Google Analytics Advertising Features, including Google Signals, are enabled for the App. Where available, Google Signals may use information associated with users who are signed in to a Google account and have enabled advertising personalization.</p>
+      <p>On Android, we use Google Analytics for Firebase to understand App usage and improve Football Player. Google Analytics Advertising Features, including Google Signals, may be used only where applicable consent and platform settings allow them.</p>
+      <p>On iOS and iPadOS, Firebase Analytics collection and Google Analytics advertising-personalization signals are disabled. Firebase Crashlytics remains enabled for crash reports and technical diagnostics, but it is not used for advertising or cross-app tracking.</p>
       <p>This may provide aggregated reports about:</p>
       <ul>
         <li>Approximate age ranges</li>
@@ -458,7 +458,7 @@
       <p>You can control Google advertising personalization through your Google Account or device advertising settings.</p>
 
       <h3>Google Analytics Retention</h3>
-      <p>Our current Google Analytics retention settings are:</p>
+      <p>For Android analytics data, our current Google Analytics retention settings are:</p>
       <ul>
         <li><strong>Event data:</strong> 2 months</li>
         <li><strong>User data:</strong> 14 months</li>
@@ -474,7 +474,7 @@
       <p>The App uses third-party services that may process personal information according to their own terms and privacy policies.</p>
 
       <div class="service"><strong>Google Play Services</strong>Used on supported Android devices for platform functionality and related services. <a href="https://policies.google.com/privacy" rel="noopener noreferrer">Privacy Policy</a></div>
-      <div class="service"><strong>Firebase Analytics</strong>Used to measure gameplay events, App usage, and performance. <a href="https://firebase.google.com/support/privacy" rel="noopener noreferrer">Privacy Information</a></div>
+      <div class="service"><strong>Firebase Analytics</strong>Used on Android to measure gameplay events, App usage, and performance. Firebase Analytics collection is disabled on iOS and iPadOS. <a href="https://firebase.google.com/support/privacy" rel="noopener noreferrer">Privacy Information</a></div>
       <div class="service"><strong>Firebase Crashlytics</strong>Used to collect crash reports, technical diagnostics, and error context. <a href="https://firebase.google.com/support/privacy" rel="noopener noreferrer">Privacy Information</a></div>
       <div class="service"><strong>Google AdMob and Google Mobile Ads</strong>Used to request, display, and measure advertisements. <a href="https://policies.google.com/privacy" rel="noopener noreferrer">Privacy Policy</a></div>
       <div class="service"><strong>Google User Messaging Platform</strong>Used to display consent messages and manage applicable privacy choices. <a href="https://developers.google.com/admob/unity/privacy" rel="noopener noreferrer">Privacy and Messaging Information</a></div>
@@ -512,6 +512,7 @@
       <p>We retain information only for as long as reasonably necessary for the purposes described in this Privacy Policy.</p>
 
       <h3>Analytics Data</h3>
+      <p>The following retention periods apply to Android analytics data. Firebase Analytics collection is disabled on iOS and iPadOS.</p>
       <ul>
         <li>Google Analytics event data is retained for 2 months.</li>
         <li>Google Analytics user data is retained for 14 months.</li>
