@@ -162,7 +162,7 @@
       <p class="eyebrow">ATEA Games</p>
       <h1>Privacy Policy</h1>
       <h2>Football Player: Legends Path</h2>
-      <p class="meta"><strong>Effective Date:</strong> July 14, 2026<br><strong>Last Updated:</strong> July 22, 2026</p>
+      <p class="meta"><strong>Effective Date:</strong> July 14, 2026<br><strong>Last Updated:</strong> October 23, 2026</p>
       <p><em>Football Player: Legends Path</em> (“Football Player,” the “App,” or the “Service”) is developed and operated by Barış Güler, trading as ATEA Games (“ATEA Games,” “we,” “us,” or “our”).</p>
       <p>This Privacy Policy explains what information may be collected when you use the App, why it is processed, how it may be shared, how long it is retained, and the choices available to you.</p>
       <p>By downloading or using Football Player, you acknowledge the practices described in this Privacy Policy.</p>
@@ -201,7 +201,7 @@
         <li>Career saves, custom player images, identity packs, and most game settings are stored locally on your device.</li>
         <li>We use analytics to understand how the App is used and improve gameplay.</li>
         <li>Advertising providers may process advertising identifiers and ad interaction information.</li>
-        <li>Crash and technical diagnostic information may be collected to fix errors.</li>
+        <li>In releases offering Technical Error Sharing, sending automatic error and crash reports is optional and off until you allow it.</li>
         <li>Bug reports and support messages are submitted voluntarily.</li>
         <li>Purchases are processed by the relevant app store. We do not receive or store your payment card details.</li>
         <li>Consent and advertising preferences can be managed through the App or your device settings where available.</li>
@@ -283,7 +283,8 @@
       <p>Advertising providers may combine information collected through the App with information collected from other apps, websites, or services in accordance with their own privacy policies.</p>
 
       <h3>2.4 Crash Reports and Automatic Error Reports</h3>
-      <p>We use Firebase Crashlytics and limited automatic error reporting to identify crashes, freezes, and technical problems.</p>
+      <p>We use Firebase Crashlytics and limited technical error reporting to identify crashes, freezes, and technical problems. In releases offering Technical Error Sharing, we ask separately before sending automatic reports. You may decline and continue playing, or change your choice in Settings. This choice is separate from advertising consent and applies to subsequent automatic technical reports. Older releases may use the automatic reporting described in their earlier notice.</p>
+      <p>Technical Error Sharing is off until you enable it, and an existing choice is preserved when you update the App. You can open its controls in Settings. These optional reports are not used for advertising, cross-app tracking, or data brokerage. Allowing technical reports does not grant advertising or tracking permission; allowing advertising or tracking does not enable technical reports.</p>
       <p>Crash and error information may include:</p>
       <ul>
         <li>Device model</li>
@@ -299,7 +300,8 @@
         <li>Stack trace</li>
         <li>Crash or installation identifier</li>
       </ul>
-      <p>Automatic error reports are sent only for technical troubleshooting. They are not intended to include your name, email address, custom player image, or payment information.</p>
+      <p>Reports are used for technical troubleshooting. Direct technical reports filter recognized name and identifier fields, email addresses, file paths and URLs before transmission. They are not guaranteed to be anonymous: error text can contain game context or user-entered content. Full career saves and photos are excluded from these direct reports. Native crash reports may contain crash or installation identifiers and technical context.</p>
+      <p>Turning sharing off prevents future automatic submissions and discards queued direct reports. Crash reports from sessions without the same continuing permission are not released on a later opt-in. Crash sharing starts with the next app session. Reports already submitted cannot be recalled by the switch; you may request deletion using the contact information below. You can also approve a single error report without enabling automatic sharing. A record of the applicable notice version, consent scope and consent time accompanies direct reports and save uploads.</p>
 
       <h3>2.5 Bug Reports and Support Communications</h3>
       <p>The App allows you to voluntarily create a bug report or suggestion through your device’s email application.</p>
@@ -312,7 +314,7 @@
         <li>System language</li>
       </ul>
       <p>You decide whether to send the email and may review or edit its contents before sending it.</p>
-      <p>If a career cannot finish loading, the App may also offer a separate “Send Save File” action. The save is uploaded only after you confirm that action. It is associated with the technical report identifier, stored in a private support folder, and is not sent to advertising providers.</p>
+      <p>If a career cannot finish loading, the App may also offer a separate “Send Save File” action. The full save is uploaded only after you confirm that action, even when automatic sharing is off. It may contain player names, career choices and custom content. It is associated with the technical report identifier, stored in a restricted Google Drive support folder, and is not sent to advertising providers. Google services may process the file outside your country. You may cancel and continue using the recovery options.</p>
       <p>If you contact us, we may receive:</p>
       <ul>
         <li>Your email address and display name</li>
@@ -383,6 +385,7 @@
       <p>Where applicable law requires a legal basis, we process personal information based on one or more of the following:</p>
 
       <h3>Consent</h3>
+      <p>For releases offering Technical Error Sharing, we rely on your optional permission to send automatic error and crash reports. Separate approval applies to each manual error report or career-save upload. Declining these options does not prevent you from playing. Turning automatic sharing off stops subsequent submissions but does not undo processing already performed with permission.</p>
       <p>We rely on consent where required for personalized advertising, advertising identifiers, Google Analytics Advertising Features, or similar technologies.</p>
       <p>You may withdraw your consent through the App’s privacy settings or your device settings where available.</p>
 
@@ -393,7 +396,7 @@
       <p>We may process limited information for legitimate interests such as:</p>
       <ul>
         <li>Maintaining App security and stability</li>
-        <li>Fixing crashes and technical problems</li>
+        <li>Investigating technical problems already reported to us, where an applicable legal basis permits this</li>
         <li>Improving gameplay and performance</li>
         <li>Preventing fraud or misuse</li>
         <li>Responding to support messages</li>
@@ -421,7 +424,8 @@
       <p>The permanent Privacy Policy button and the consent management controls serve different purposes. The Privacy Policy button opens this document, while Manage Privacy Options allows you to review or change applicable consent choices.</p>
 
       <h3>iOS App Tracking Transparency</h3>
-      <p>On iOS, the App may display Apple’s App Tracking Transparency permission request before an advertising identifier is accessed for tracking purposes.</p>
+      <p>On iOS, tracking across other companies’ apps and websites for advertising or measurement requires permission through Apple’s App Tracking Transparency (ATT) system. ATT is separate from regional advertising privacy choices. Neither permission overrides a refusal in the other control. We do not use the Technical Error Sharing choice as permission to track.</p>
+      <p>In the updated permission flow, required regional advertising messages finish before the App requests ATT. Where regional choices rule out the relevant advertising use, the App skips the ATT request. If an ATT request is needed but remains unresolved, advertising initialization waits; playing the game does not require accepting tracking. Apple may suppress its permission window when a decision already exists or system or account restrictions apply.</p>
       <p>If you deny this permission:</p>
       <ul>
         <li>The App will remain usable.</li>
@@ -446,8 +450,8 @@
     <section id="analytics">
       <h2>7. Analytics and Google Signals</h2>
       <p>On Android, we use Google Analytics for Firebase to understand App usage and improve Football Player. Google Analytics Advertising Features, including Google Signals, may be used only where applicable consent and platform settings allow them.</p>
-      <p>On iOS and iPadOS, Firebase Analytics collection and Google Analytics advertising-personalization signals are disabled. Firebase Crashlytics remains enabled for crash reports and technical diagnostics, but it is not used for advertising or cross-app tracking.</p>
-      <p>This may provide aggregated reports about:</p>
+      <p>On iOS and iPadOS, basic Firebase usage analytics is enabled after initialization; Firebase advertising storage, advertising user data, advertising personalization and IDFV collection are disabled. In releases offering Technical Error Sharing, Firebase crash submissions follow that separate optional choice. Crash reports are not used for advertising or cross-app tracking.</p>
+      <p>Where Google Analytics Advertising Features are enabled on Android with the applicable permission, they may provide aggregated reports about:</p>
       <ul>
         <li>Approximate age ranges</li>
         <li>Gender</li>
@@ -475,7 +479,7 @@
       <p>The App uses third-party services that may process personal information according to their own terms and privacy policies.</p>
 
       <div class="service"><strong>Google Play Services</strong>Used on supported Android devices for platform functionality and related services. <a href="https://policies.google.com/privacy" rel="noopener noreferrer">Privacy Policy</a></div>
-      <div class="service"><strong>Firebase Analytics</strong>Used on Android to measure gameplay events, App usage, and performance. Firebase Analytics collection is disabled on iOS and iPadOS. <a href="https://firebase.google.com/support/privacy" rel="noopener noreferrer">Privacy Information</a></div>
+      <div class="service"><strong>Firebase Analytics</strong>Used to measure gameplay events, App usage, and performance. iOS and iPadOS use basic analytics with Firebase advertising features disabled. <a href="https://firebase.google.com/support/privacy" rel="noopener noreferrer">Privacy Information</a></div>
       <div class="service"><strong>Firebase Crashlytics</strong>Used to collect crash reports, technical diagnostics, and error context. <a href="https://firebase.google.com/support/privacy" rel="noopener noreferrer">Privacy Information</a></div>
       <div class="service"><strong>Google AdMob and Google Mobile Ads</strong>Used to request, display, and measure advertisements. <a href="https://policies.google.com/privacy" rel="noopener noreferrer">Privacy Policy</a></div>
       <div class="service"><strong>Google User Messaging Platform</strong>Used to display consent messages and manage applicable privacy choices. <a href="https://developers.google.com/admob/unity/privacy" rel="noopener noreferrer">Privacy and Messaging Information</a></div>
@@ -505,7 +509,7 @@
       <p>We do not sell personal information in exchange for money.</p>
       <p>However, personalized advertising and the transfer of advertising identifiers to advertising partners may be considered “selling,” “sharing,” or “targeted advertising” under certain privacy laws.</p>
       <p>Where applicable, you may opt out using the App’s privacy options or your device settings.</p>
-      <p>We do not share custom player images or locally stored career files with advertisers unless you deliberately send such a file through an external support or sharing action.</p>
+      <p>We do not share custom player images or locally stored career files with advertisers. Files you choose to send to support are handled as described in Section 2.5. If you share a file through an external service, that service handles it under its own privacy policy.</p>
     </section>
 
     <section id="retention">
@@ -513,7 +517,7 @@
       <p>We retain information only for as long as reasonably necessary for the purposes described in this Privacy Policy.</p>
 
       <h3>Analytics Data</h3>
-      <p>The following retention periods apply to Android analytics data. Firebase Analytics collection is disabled on iOS and iPadOS.</p>
+      <p>The following configured retention periods apply to Android analytics data. Advertising-feature information applies only where those features are enabled. Retention of iOS usage analytics is controlled by the relevant Google Analytics property settings and Google’s retention controls.</p>
       <ul>
         <li>Google Analytics event data is retained for 2 months.</li>
         <li>Google Analytics user data is retained for 14 months.</li>
@@ -526,6 +530,7 @@
       <p>Firebase Crashlytics generally retains crash information for 90 days before the removal process begins, subject to Firebase’s service operation and policies.</p>
 
       <h3>Bug Reports and Support Messages</h3>
+      <p>Direct technical error reports in the updated reporting service are retained for no more than 30 days. Unsent direct reports expire locally after 30 days, and changing the automatic-sharing choice clears the queue. The service performs scheduled cleanup independently of new uploads. If its maintenance check is unavailable, new clients do not send report contents or save files to it.</p>
       <p>Bug reports and support correspondence are retained only for as long as reasonably necessary to investigate, respond to, and resolve the relevant issue.</p>
       <p>Career save files that you explicitly submit from the loading-error screen are kept privately for up to 30 days and then deleted.</p>
       <p>They are periodically reviewed and deleted or anonymized when no longer needed.</p>
@@ -546,7 +551,7 @@
       <h2>11. International Data Transfers</h2>
       <p>ATEA Games is based in Türkiye, while our service providers may process information in other countries, including the United States and countries where their servers or personnel are located.</p>
       <p>These countries may have privacy laws different from those in your country.</p>
-      <p>Where required, international transfers are handled using recognized legal safeguards, contractual protections, adequacy decisions, or other lawful transfer mechanisms provided by the relevant service provider.</p>
+      <p>International transfers require a valid transfer mechanism under applicable law, in addition to a basis for processing. Depending on the applicable jurisdiction and service, this may require an adequacy decision or appropriate contractual safeguards. An in-App sharing choice does not by itself establish these safeguards or replace them for recurring transfers. Contact us for information about the safeguards applicable to your data.</p>
     </section>
 
     <section id="security">
