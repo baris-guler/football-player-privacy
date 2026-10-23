@@ -201,7 +201,7 @@
         <li>Career saves, custom player images, identity packs, and most game settings are stored locally on your device.</li>
         <li>We use analytics to understand how the App is used and improve gameplay.</li>
         <li>Advertising providers may process advertising identifiers and ad interaction information.</li>
-        <li>In releases offering Technical Error Sharing, sending automatic error and crash reports is optional and off until you allow it.</li>
+        <li>The upcoming iOS and iPadOS update disables automatic technical and crash-report submissions. Android releases offering Technical Error Sharing keep that separate feature optional and off until you allow it.</li>
         <li>Bug reports and support messages are submitted voluntarily.</li>
         <li>Purchases are processed by the relevant app store. We do not receive or store your payment card details.</li>
         <li>Consent and advertising preferences can be managed through the App or your device settings where available.</li>
@@ -283,9 +283,9 @@
       <p>Advertising providers may combine information collected through the App with information collected from other apps, websites, or services in accordance with their own privacy policies.</p>
 
       <h3>2.4 Crash Reports and Automatic Error Reports</h3>
-      <p>We use Firebase Crashlytics and limited technical error reporting to identify crashes, freezes, and technical problems. In releases offering Technical Error Sharing, we ask separately before sending automatic reports. You may decline and continue playing, or change your choice in Settings. This choice is separate from advertising consent and applies to subsequent automatic technical reports. Older releases may use the automatic reporting described in their earlier notice.</p>
-      <p>Technical Error Sharing is off until you enable it, and an existing choice is preserved when you update the App. You can open its controls in Settings. These optional reports are not used for advertising, cross-app tracking, or data brokerage. Allowing technical reports does not grant advertising or tracking permission; allowing advertising or tracking does not enable technical reports.</p>
-      <p>Crash and error information may include:</p>
+      <p><strong>iOS and iPadOS update:</strong> The next App update disables automatic technical reports, including reports to our support spreadsheet and Firebase Crashlytics submissions. It removes the automatic Technical Error Sharing prompt and setting. An earlier opt-in will not enable these submissions in the updated version; queued automatic support reports and pending Firebase crash reports are discarded. You may still choose and separately approve sending a single error report or a career-save file to support. This change requires installing the updated App; versions installed before this update may retain the reporting behavior described in their earlier notice.</p>
+      <p><strong>Android:</strong> In releases offering Technical Error Sharing, we ask separately before sending automatic reports. Sharing is off until you enable it, and an existing choice is preserved on update. You may decline and continue playing, or change your choice in Settings. These optional reports are not used for advertising, cross-app tracking, or data brokerage. Allowing technical reports does not grant advertising or tracking permission; allowing advertising or tracking does not enable technical reports.</p>
+      <p>Depending on the platform, release and report you approve, crash and error information may include:</p>
       <ul>
         <li>Device model</li>
         <li>Operating system</li>
@@ -301,7 +301,7 @@
         <li>Crash or installation identifier</li>
       </ul>
       <p>Reports are used for technical troubleshooting. Direct technical reports filter recognized name and identifier fields, email addresses, file paths and URLs before transmission. They are not guaranteed to be anonymous: error text can contain game context or user-entered content. Full career saves and photos are excluded from these direct reports. Native crash reports may contain crash or installation identifiers and technical context.</p>
-      <p>Turning sharing off prevents future automatic submissions and discards queued direct reports. Crash reports from sessions without the same continuing permission are not released on a later opt-in. Crash sharing starts with the next app session. Reports already submitted cannot be recalled by the switch; you may request deletion using the contact information below. You can also approve a single error report without enabling automatic sharing. A record of the applicable notice version, consent scope and consent time accompanies direct reports and save uploads.</p>
+      <p>On Android releases offering automatic sharing, turning it off prevents future automatic submissions and discards queued direct reports. Crash reports from sessions without the same continuing permission are not released on a later opt-in; crash sharing starts with the next app session. Reports already submitted cannot be recalled by changing a setting or installing an update; you may request deletion using the contact information below. On either platform, you can approve a single error report without enabling automatic sharing. A record of the applicable notice version, consent scope and consent time accompanies direct reports and save uploads.</p>
 
       <h3>2.5 Bug Reports and Support Communications</h3>
       <p>The App allows you to voluntarily create a bug report or suggestion through your device’s email application.</p>
@@ -385,7 +385,7 @@
       <p>Where applicable law requires a legal basis, we process personal information based on one or more of the following:</p>
 
       <h3>Consent</h3>
-      <p>For releases offering Technical Error Sharing, we rely on your optional permission to send automatic error and crash reports. Separate approval applies to each manual error report or career-save upload. Declining these options does not prevent you from playing. Turning automatic sharing off stops subsequent submissions but does not undo processing already performed with permission.</p>
+      <p>On Android releases offering Technical Error Sharing, we rely on your optional permission to send automatic error and crash reports. Automatic reporting is disabled in the upcoming iOS and iPadOS update described in Section 2.4. On either platform, separate approval applies to each manual error report or career-save upload. Declining these options does not prevent you from playing. Withdrawing permission stops subsequent submissions but does not undo processing already performed with permission.</p>
       <p>We rely on consent where required for personalized advertising, advertising identifiers, Google Analytics Advertising Features, or similar technologies.</p>
       <p>You may withdraw your consent through the App’s privacy settings or your device settings where available.</p>
 
@@ -450,7 +450,7 @@
     <section id="analytics">
       <h2>7. Analytics and Google Signals</h2>
       <p>On Android, we use Google Analytics for Firebase to understand App usage and improve Football Player. Google Analytics Advertising Features, including Google Signals, may be used only where applicable consent and platform settings allow them.</p>
-      <p>On iOS and iPadOS, basic Firebase usage analytics is enabled after initialization; Firebase advertising storage, advertising user data, advertising personalization and IDFV collection are disabled. In releases offering Technical Error Sharing, Firebase crash submissions follow that separate optional choice. Crash reports are not used for advertising or cross-app tracking.</p>
+      <p>On iOS and iPadOS, basic Firebase usage analytics is enabled after initialization; Firebase advertising storage, advertising user data, advertising personalization and IDFV collection are disabled. Firebase Crashlytics submissions are disabled in the upcoming iOS and iPadOS update described in Section 2.4. Disabling crash submissions does not disable basic usage analytics. Crash reports from supported earlier releases are not used for advertising or cross-app tracking.</p>
       <p>Where Google Analytics Advertising Features are enabled on Android with the applicable permission, they may provide aggregated reports about:</p>
       <ul>
         <li>Approximate age ranges</li>
@@ -480,12 +480,12 @@
 
       <div class="service"><strong>Google Play Services</strong>Used on supported Android devices for platform functionality and related services. <a href="https://policies.google.com/privacy" rel="noopener noreferrer">Privacy Policy</a></div>
       <div class="service"><strong>Firebase Analytics</strong>Used to measure gameplay events, App usage, and performance. iOS and iPadOS use basic analytics with Firebase advertising features disabled. <a href="https://firebase.google.com/support/privacy" rel="noopener noreferrer">Privacy Information</a></div>
-      <div class="service"><strong>Firebase Crashlytics</strong>Used to collect crash reports, technical diagnostics, and error context. <a href="https://firebase.google.com/support/privacy" rel="noopener noreferrer">Privacy Information</a></div>
+      <div class="service"><strong>Firebase Crashlytics</strong>Used for crash reports, technical diagnostics, and error context on supported releases with the applicable reporting permission. Submissions are disabled in the upcoming iOS and iPadOS update described in Section 2.4. <a href="https://firebase.google.com/support/privacy" rel="noopener noreferrer">Privacy Information</a></div>
       <div class="service"><strong>Google AdMob and Google Mobile Ads</strong>Used to request, display, and measure advertisements. <a href="https://policies.google.com/privacy" rel="noopener noreferrer">Privacy Policy</a></div>
       <div class="service"><strong>Google User Messaging Platform</strong>Used to display consent messages and manage applicable privacy choices. <a href="https://developers.google.com/admob/unity/privacy" rel="noopener noreferrer">Privacy and Messaging Information</a></div>
       <div class="service"><strong>Unity LevelPlay and Unity Ads</strong>Used for advertising mediation, advertisement delivery, measurement, and related services. <a href="https://unity.com/legal/game-player-and-app-user-privacy-policy" rel="noopener noreferrer">Privacy Policy</a></div>
       <div class="service"><strong>Yandex Mobile Ads</strong>Used as an advertising provider on supported platforms and releases. <a href="https://yandex.com/legal/international_ads_privacy_policy/en/" rel="noopener noreferrer">Privacy Policy</a></div>
-      <div class="service"><strong>Google Apps Script, Gmail, and Google Workspace</strong>Used for automatic technical error reporting and processing support emails sent to ATEA Games. <a href="https://policies.google.com/privacy" rel="noopener noreferrer">Privacy Policy</a></div>
+      <div class="service"><strong>Google Apps Script, Gmail, and Google Workspace</strong>Used to process support reports, approved career-save uploads and emails sent to ATEA Games. Automatic technical report submissions remain available only on supported releases with the applicable reporting permission; the upcoming iOS and iPadOS update disables them. <a href="https://policies.google.com/privacy" rel="noopener noreferrer">Privacy Policy</a></div>
       <div class="service"><strong>GitHub Pages</strong>Used only to host this static Privacy Policy webpage. The page itself contains no analytics, advertising, tracking scripts, tracking pixels, embedded third-party content, or cookie-setting code. GitHub may process basic network and request information to deliver and secure the page under its own policy. <a href="https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement" rel="noopener noreferrer">Privacy Statement</a></div>
       <div class="service"><strong>Google Play Store and Apple App Store</strong>Used to distribute the App and process purchases, subscriptions, refunds, and related store services. <a href="https://support.google.com/googleplay/answer/11174377" rel="noopener noreferrer">Google Play Purchase Privacy Information</a> · <a href="https://www.apple.com/legal/privacy/" rel="noopener noreferrer">Apple Privacy Policy</a></div>
       <div class="service"><strong>Discord</strong>The App may contain a link to the ATEA Games Discord community. Discord processes information under its own privacy policy after you choose to open the link. <a href="https://discord.com/privacy" rel="noopener noreferrer">Privacy Policy</a></div>
@@ -527,7 +527,7 @@
       </ul>
 
       <h3>Crash Reports</h3>
-      <p>Firebase Crashlytics generally retains crash information for 90 days before the removal process begins, subject to Firebase’s service operation and policies.</p>
+      <p>For reports submitted by supported Android or earlier iOS/iPadOS releases, Firebase Crashlytics generally retains crash information for 90 days before the removal process begins, subject to Firebase’s service operation and policies. The upcoming iOS and iPadOS update stops new submissions; it does not itself delete reports already held by Firebase.</p>
 
       <h3>Bug Reports and Support Messages</h3>
       <p>Direct technical error reports in the updated reporting service are retained for no more than 30 days. Unsent direct reports expire locally after 30 days, and changing the automatic-sharing choice clears the queue. The service performs scheduled cleanup independently of new uploads. If its maintenance check is unavailable, new clients do not send report contents or save files to it.</p>
